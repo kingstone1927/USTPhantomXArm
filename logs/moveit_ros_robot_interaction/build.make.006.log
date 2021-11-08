@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_interaction[0m
+[ 14%] [32m[1mLinking CXX shared library /home/irobotics/ws_moveit/devel/.private/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so[0m
+[100%] Built target moveit_robot_interaction

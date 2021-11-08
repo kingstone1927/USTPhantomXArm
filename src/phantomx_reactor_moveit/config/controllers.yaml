@@ -1,0 +1,14 @@
+controller_list:
+    name: Reactor_arm_controller
+    action_ns: "sequence_move_group"
+    type: SequenceMoveGroup
+    joints:
+      - shoulder_yaw
+      - shoulder_pitch
+      - elbow_pitch
+      - wrist_pitch
+      - wrist_roll
+      - finger_joint
+initial:  # Define initial robot poses.
+  - group: Reactor_arm
+    pose: home

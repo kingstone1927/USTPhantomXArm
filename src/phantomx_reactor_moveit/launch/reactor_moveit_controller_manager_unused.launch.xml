@@ -1,0 +1,12 @@
+  <rosparam command="load" file="$(find phantomx_reactor_moveit)/config/joint_names.yaml"/>
+  <include file="$(find phantomx_reactor_moveit)/launch/planning_context.launch"><arg name="load_robot_description" value="true" />
+  </include>
+  
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"><param name="/use_gui" value="false"/>
+  <rosparam param="/source_list">[/sequence_move_group]</rosparam> </node>
+  
+  <include file="$(find phantomx_reactor_moveit)/launch/move_group.launch"><arg name="publish_monitored_planning_scene" value="true" /> 
+  </include>
+  
+  <include file="$(find phantomx_reactor_moveit)/launch/moveit_rviz.launch"><arg name="config" value="true" /> 
+  </include>

@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_phantomx_reactor_arm_controller
+    type: $(arg execution_type)
+    joints:
+      - shoulder_yaw
+      - shoulder_pitch
+      - elbow_pitch
+      - wrist_pitch
+      - wrist_roll
+      - finger_joint
+initial:  # Define initial robot poses.
+  - group: phantomx_reactor_arm
+    pose: home

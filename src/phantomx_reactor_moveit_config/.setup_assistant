@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: reactor_description
+    relative_path: robots/reactor_description.URDF
+    xacro_args: ""
+  SRDF:
+    relative_path: config/reactor.srdf
+  CONFIG:
+    author_name: Thach Nguyen
+    author_email: hoangthach1927@gmail.com
+    generated_timestamp: 1632168152

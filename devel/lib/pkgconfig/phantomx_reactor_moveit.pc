@@ -1,0 +1,8 @@
+prefix=/home/irobotics/ws_moveit/devel
+
+Name: phantomx_reactor_moveit
+Description: Description of phantomx_reactor_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

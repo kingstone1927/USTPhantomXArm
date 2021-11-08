@@ -1,0 +1,8 @@
+prefix=/home/irobotics/ws_moveit/install
+
+Name: reactor_control
+Description: Description of reactor_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

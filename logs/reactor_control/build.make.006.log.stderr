@@ -1,0 +1,8 @@
+In file included from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:44:10:[m[K [01;31m[Kfatal error: [m[Kreactor_control/armCmd.msg: No such file or directory
+   44 | #include [01;31m[K<reactor_control/armCmd.msg>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/reactor_hw_interface.dir/build.make:76: CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/reactor_hw_interface.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,62 @@
+[  5%] [32mBuilding CXX object CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o[0m
+[  5%] Built target dynamic_reconfigure_generate_messages_eus
+[  5%] Built target _reactor_control_generate_messages_check_deps_reactorTelemetry
+[  5%] Built target _reactor_control_generate_messages_check_deps_armCmd
+[  5%] Built target std_msgs_generate_messages_py
+[  5%] Built target std_msgs_generate_messages_lisp
+[  5%] Built target std_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_cpp
+[  5%] Built target sensor_msgs_generate_messages_py
+[  5%] Built target sensor_msgs_generate_messages_nodejs
+[  5%] Built target sensor_msgs_generate_messages_cpp
+[  5%] Built target dynamic_reconfigure_gencfg
+[  5%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  5%] Built target dynamic_reconfigure_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_py
+[  5%] Built target geometry_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_nodejs
+[  5%] Built target geometry_msgs_generate_messages_lisp
+[  5%] Built target control_msgs_generate_messages_eus
+[  5%] Built target trajectory_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_generate_messages_py
+[  5%] Built target trajectory_msgs_generate_messages_cpp
+[  5%] Built target actionlib_generate_messages_nodejs
+[  5%] Built target control_toolbox_generate_messages_py
+[  5%] Built target actionlib_msgs_generate_messages_py
+[  5%] Built target rosgraph_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_generate_messages_cpp
+[  5%] Built target _catkin_empty_exported_target
+[  5%] Built target controller_manager_msgs_generate_messages_eus
+[  5%] Built target actionlib_generate_messages_lisp
+[  5%] Built target control_msgs_generate_messages_cpp
+[  5%] Built target trajectory_msgs_generate_messages_lisp
+[  5%] Built target actionlib_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_msgs_generate_messages_lisp
+[  5%] Built target sensor_msgs_generate_messages_lisp
+[  5%] Built target sensor_msgs_generate_messages_eus
+[  5%] Built target control_msgs_generate_messages_lisp
+[  5%] Built target rosgraph_msgs_generate_messages_eus
+[  5%] Built target dynamic_reconfigure_generate_messages_py
+[  5%] Built target control_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_msgs_generate_messages_eus
+[  5%] Built target rosgraph_msgs_generate_messages_lisp
+[ 15%] Built target reactor_control_generate_messages_nodejs
+[ 15%] Built target rosgraph_msgs_generate_messages_py
+[ 15%] Built target control_msgs_generate_messages_py
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target roscpp_generate_messages_cpp
+[ 15%] Built target roscpp_generate_messages_eus
+[ 15%] Built target control_toolbox_gencfg
+[ 15%] Built target roscpp_generate_messages_lisp
+[ 15%] Built target roscpp_generate_messages_nodejs
+In file included from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:46:10:[m[K [01;31m[Kfatal error: [m[KarmCmd.h: No such file or directory
+   46 | #include [01;31m[K<armCmd.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+[ 15%] Built target control_toolbox_generate_messages_nodejs
+make[2]: *** [CMakeFiles/reactor_hw_interface.dir/build.make:76: CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/reactor_hw_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 15%] Built target controller_manager_msgs_generate_messages_lisp
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,302 @@
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  5%] [32mBuilding CXX object CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o[0m
+[  5%] Built target _reactor_control_generate_messages_check_deps_reactorTelemetry
+[  5%] Built target _reactor_control_generate_messages_check_deps_armCmd
+[  5%] Built target std_msgs_generate_messages_py
+[  5%] Built target std_msgs_generate_messages_lisp
+[  5%] Built target std_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_cpp
+[  5%] Built target sensor_msgs_generate_messages_py
+[  5%] Built target sensor_msgs_generate_messages_nodejs
+[  5%] Built target sensor_msgs_generate_messages_cpp
+[  5%] Built target dynamic_reconfigure_gencfg
+[  5%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  5%] Built target dynamic_reconfigure_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_py
+[  5%] Built target geometry_msgs_generate_messages_eus
+[  5%] Built target std_msgs_generate_messages_nodejs
+[  5%] Built target geometry_msgs_generate_messages_lisp
+[  5%] Built target actionlib_generate_messages_py
+[  5%] Built target control_msgs_generate_messages_eus
+[  5%] Built target trajectory_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_generate_messages_nodejs
+[  5%] Built target control_toolbox_generate_messages_py
+[  5%] Built target trajectory_msgs_generate_messages_cpp
+[  5%] Built target actionlib_msgs_generate_messages_py
+[  5%] Built target rosgraph_msgs_generate_messages_nodejs
+[  5%] Built target _catkin_empty_exported_target
+[  5%] Built target actionlib_generate_messages_cpp
+[  5%] Built target controller_manager_msgs_generate_messages_eus
+[  5%] Built target actionlib_generate_messages_lisp
+[  5%] Built target control_msgs_generate_messages_cpp
+[  5%] Built target trajectory_msgs_generate_messages_lisp
+[  5%] Built target actionlib_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_msgs_generate_messages_lisp
+[  5%] Built target sensor_msgs_generate_messages_lisp
+[  5%] Built target sensor_msgs_generate_messages_eus
+[  5%] Built target control_msgs_generate_messages_lisp
+[  5%] Built target rosgraph_msgs_generate_messages_eus
+[  5%] Built target dynamic_reconfigure_generate_messages_py
+[  5%] Built target control_msgs_generate_messages_nodejs
+[  5%] Built target actionlib_msgs_generate_messages_eus
+[  5%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 15%] Built target reactor_control_generate_messages_nodejs
+[ 15%] Built target control_msgs_generate_messages_py
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target roscpp_generate_messages_cpp
+[ 15%] Built target control_toolbox_gencfg
+[ 15%] Built target roscpp_generate_messages_nodejs
+[ 15%] Built target roscpp_generate_messages_eus
+[ 15%] Built target roscpp_generate_messages_lisp
+[ 15%] Built target control_toolbox_generate_messages_nodejs
+[ 15%] Built target controller_manager_msgs_generate_messages_lisp
+[ 15%] Built target actionlib_generate_messages_eus
+[ 15%] Built target rosgraph_msgs_generate_messages_cpp
+[ 15%] Built target trajectory_msgs_generate_messages_py
+[ 15%] Built target controller_manager_msgs_generate_messages_nodejs
+[ 15%] Built target controller_manager_msgs_generate_messages_cpp
+[ 15%] Built target actionlib_msgs_generate_messages_cpp
+[ 15%] Built target controller_manager_msgs_generate_messages_py
+[ 15%] Built target trajectory_msgs_generate_messages_eus
+[ 15%] Built target roscpp_generate_messages_py
+[ 15%] Built target control_toolbox_generate_messages_cpp
+[ 15%] Built target control_toolbox_generate_messages_eus
+[ 15%] Built target control_toolbox_generate_messages_lisp
+[ 15%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 15%] Built target geometry_msgs_generate_messages_nodejs
+[ 26%] Built target reactor_control_generate_messages_lisp
+[ 42%] Built target reactor_control_generate_messages_py
+[ 57%] Built target reactor_control_generate_messages_eus
+[ 63%] [34m[1mGenerating C++ code from reactor_control/reactorTelemetry.msg[0m
+[ 68%] [34m[1mGenerating C++ code from reactor_control/armCmd.msg[0m
+[ 68%] Built target reactor_control_generate_messages_cpp
+[ 73%] [32mBuilding CXX object CMakeFiles/reactor_sim_echo.dir/src/reactor_sim_echo.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/reactor_hw_main.dir/src/reactor_hw_interface.cpp.o[0m
+[ 78%] Built target reactor_control_generate_messages
+[ 84%] [32mBuilding CXX object CMakeFiles/reactor_hw_main.dir/src/reactor_hw_main.cpp.o[0m
+In file included from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:78:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kreactor_control[m[K’ does not name a type
+   78 |   void telemetryCallback(const [01;31m[Kreactor_control[m[K::reactorTelemetry::ConstPtr &msg);
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:78:65:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   78 |   void telemetryCallback(const reactor_control::reactorTelemetry[01;31m[K::[m[KConstPtr &msg);
+      |                                                                 [01;31m[K^~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:78:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   78 |   void telemetryCallback[34m[K([m[Kconst reactor_control::reactorTelemetry[01;31m[K:[m[K[32m[K:[m[KConstPtr &msg);
+      |                         [34m[K~[m[K                                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:78:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   78 |   void telemetryCallback(const reactor_control::[01;31m[KreactorTelemetry[m[K::ConstPtr &msg);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:78:67:[m[K [01;31m[Kerror: [m[K‘[01m[KConstPtr[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   78 |   void telemetryCallback(const reactor_control::reactorTelemetry::[01;31m[KConstPtr[m[K &msg);
+      |                                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:[m[K In constructor ‘[01m[Kreactor_ns::ReactorHWInterface::ReactorHWInterface(ros::NodeHandle&, urdf::Model*)[m[K’:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(const char [27], int, void (reactor_ns::ReactorHWInterface::*)(...), reactor_ns::ReactorHWInterface*)[m[K’
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;31m[K)[m[K;
+      |                                                                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::)(...)[m[K’ have incompatible cv-qualifiers
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::)(...)[m[K’ have incompatible cv-qualifiers
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::)(...)[m[K’ have incompatible cv-qualifiers
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::)(...)[m[K’ have incompatible cv-qualifiers
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(M)[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::*)(...)[m[K’
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::*)(...)[m[K’
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const M>&)>[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::*)(...)[m[K’
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:48:105:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(C)>[m[K’ and ‘[01m[Kvoid (reactor_ns::ReactorHWInterface::*)(...)[m[K’
+   48 |   telemetry_sub=nh.subscribe("/arbotixM/reactortelemetry",1,&ReactorHWInterface::telemetryCallback, this[01;36m[K)[m[K;
+      |                                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)[m[K’
+  836 |   Subscriber [01;36m[Ksubscribe[m[K(SubscribeOptions& ops);
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kreactor_control[m[K’ was not declared in this scope
+   49 |   cmd_pub=nh.advertise<[01;31m[Kreactor_control[m[K::armCmd>("/arbotixM/armCmd",1);
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:14:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   49 |   cmd_pub=nh.[01;31m[Kadvertise<reactor_control::armCmd>[m[K("/arbotixM/armCmd",1);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [17], int)[m[K’
+   49 |   cmd_pub=nh.advertise<reactor_control::armCmd>("/arbotixM/armCmd",1[01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |   cmd_pub=nh.advertise<reactor_control::armCmd>("/arbotixM/armCmd",1[01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |   cmd_pub=nh.advertise<reactor_control::armCmd>("/arbotixM/armCmd",1[01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:[m[K At global scope:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:52:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kreactor_control[m[K’ does not name a type
+   52 | void ReactorHWInterface::telemetryCallback(const [01;31m[Kreactor_control[m[K::reactorTelemetry::ConstPtr &msg){
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:52:83:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   52 | void ReactorHWInterface::telemetryCallback(const reactor_control::reactorTelemetry[01;31m[K::[m[KConstPtr &msg){
+      |                                                                                   [01;31m[K^~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:52:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   52 | void ReactorHWInterface::telemetryCallback[34m[K([m[Kconst reactor_control::reactorTelemetry[01;31m[K:[m[K[32m[K:[m[KConstPtr &msg){
+      |                                           [34m[K~[m[K                                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                   [32m[K)[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:52:83:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   52 | void ReactorHWInterface::telemetryCallback(const reactor_control::reactorTelemetry[01;31m[K::[m[KConstPtr &msg){
+      |                                                                                   [01;31m[K^~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:[m[K In member function ‘[01m[Kvirtual void reactor_ns::ReactorHWInterface::write(ros::Duration&)[m[K’:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:105:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kreactor_control[m[K’ does not name a type
+  105 |   static [01;31m[Kreactor_control[m[K::armCmd arm_cmd;
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_cmd[m[K’ was not declared in this scope
+  107 |     [01;31m[Karm_cmd[m[K.angle[i]  = joint_position_command_[i]*RAD_TO_DEG;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:110:19:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_cmd[m[K’ was not declared in this scope
+  110 |   cmd_pub.publish([01;31m[Karm_cmd[m[K);
+      |                   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/reactor_hw_interface.dir/build.make:76: CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/reactor_hw_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 89%] [32m[1mLinking CXX executable /home/irobotics/ws_moveit/devel/.private/reactor_control/lib/reactor_control/reactor_sim_echo[0m
+[ 89%] Built target reactor_sim_echo
+[ 94%] [32m[1mLinking CXX executable /home/irobotics/ws_moveit/devel/.private/reactor_control/lib/reactor_control/reactor_hw_main[0m
+[ 94%] Built target reactor_hw_main
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,63 @@
+<launch>
+ 
+ <!-- RVIZ  -->
+   
+    <!-- Load the URDF to the parameter server -->
+    <param name="robot_description" textfile="$(find reactor_description)/robots/reactor_description.urdf"/>
+
+
+    <!-- Show in Rviz  -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find reactor_control)/basic.rviz"/>
+
+
+
+ <!-- CORE  -->
+
+  <!-- Load controller settings  -->
+    <rosparam file="$(find reactor_control)/cfg/reactor_controllers.yaml" command="load"/>
+
+
+    <!-- Load hardware interface -->
+    <node name="reactor_hw_main" pkg="reactor_control" type="reactor_hw_main" output="screen"/> 
+
+
+
+    <!-- Load controller manager  -->
+    <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+    output="screen" args="spawn joint_state_controller position_trajectory_controller" />
+
+    <!-- Convert joint states to /tf tranforms -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+    <!-- Simple Simulator -->
+    <node name="reactor_sim_echo" pkg="reactor_control" type="reactor_sim_echo"/>
+
+ 
+ <!-- MOVEIT -->
+
+    <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+    <include file="$(find phantomx_reactor_moveit)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+    </include>
+
+
+    <!-- Remap follow_joint_trajectory -->
+    <remap from="/joint_trajectory_action" to="/position_trajectory_controller/follow_joint_trajectory"/>
+  
+
+    <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
+    <include file="$(find phantomx_reactor_moveit)/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <arg name="fake_execution" value="false"/>
+    <arg name="info" value="true"/> 
+    </include>
+
+
+
+ 
+
+
+
+
+
+</launch>

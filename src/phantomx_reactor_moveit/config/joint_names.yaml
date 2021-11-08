@@ -1,0 +1,7 @@
+    controllers_joint_names:
+      - shoulder_yaw
+      - shoulder_pitch
+      - elbow_pitch
+      - wrist_pitch
+      - wrist_roll
+      - finger_joint

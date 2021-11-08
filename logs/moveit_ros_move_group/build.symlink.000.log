@@ -1,0 +1,9 @@
+Symlinking /home/irobotics/ws_moveit/devel/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake
+Symlinking /home/irobotics/ws_moveit/devel/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake
+Symlinking /home/irobotics/ws_moveit/devel/lib/libmoveit_move_group_capabilities_base.so
+Symlinking /home/irobotics/ws_moveit/devel/lib/libmoveit_move_group_default_capabilities.so.1.1.6
+Symlinking /home/irobotics/ws_moveit/devel/lib/libmoveit_move_group_default_capabilities.so
+Symlinking /home/irobotics/ws_moveit/devel/lib/libmoveit_move_group_capabilities_base.so.1.1.6
+Symlinking /home/irobotics/ws_moveit/devel/lib/pkgconfig/moveit_ros_move_group.pc
+Symlinking /home/irobotics/ws_moveit/devel/lib/moveit_ros_move_group/list_move_group_capabilities
+Symlinking /home/irobotics/ws_moveit/devel/lib/moveit_ros_move_group/move_group

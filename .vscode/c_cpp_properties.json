@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/irobotics/ws_moveit/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+                "/home/irobotics/ws_moveit/src/geometric_shapes/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+                "/home/irobotics/ws_moveit/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+                "/home/irobotics/ws_moveit/src/moveit_visual_tools/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+                "/home/irobotics/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+                "/home/irobotics/ws_moveit/src/rviz_visual_tools/include/**",
+                "/home/irobotics/ws_moveit/src/reactor_control/include/**",
+                "/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "compileCommands": "${workspaceFolder}/build/rviz_visual_tools/compile_commands.json",
+            "cppStandard": "c++20",
+            "compilerPath": "/usr/bin/cpp"
+        }
+    ],
+    "version": 4
+}

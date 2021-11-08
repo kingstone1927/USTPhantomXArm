@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_ros_benchmarks[0m
+[ 14%] [32m[1mLinking CXX shared library /home/irobotics/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so[0m
+[ 42%] Built target moveit_ros_benchmarks
+[35m[1mConsolidate compiler generated dependencies of target moveit_combine_predefined_poses_benchmark[0m
+[ 57%] [32m[1mLinking CXX executable /home/irobotics/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark[0m
+[ 71%] Built target moveit_combine_predefined_poses_benchmark
+[35m[1mConsolidate compiler generated dependencies of target moveit_run_benchmark[0m
+[ 85%] [32m[1mLinking CXX executable /home/irobotics/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark[0m
+[100%] Built target moveit_run_benchmark

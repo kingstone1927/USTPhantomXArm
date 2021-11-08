@@ -1,0 +1,46 @@
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:[m[K In constructor ‘[01m[Kreactor_ns::ReactorHWInterface::ReactorHWInterface(ros::NodeHandle&, urdf::Model*)[m[K’:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<reactor_control::armCmd>(const char [17])[m[K’
+   49 |   cmd_pub=nh.advertise<reactor_control::armCmd>("/arbotixM/armCmd"[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = reactor_control::armCmd_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool) [with M = reactor_control::armCmd_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>; ros::VoidConstPtr = boost::shared_ptr<const void>][m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+make[2]: *** [CMakeFiles/reactor_hw_interface.dir/build.make:76: CMakeFiles/reactor_hw_interface.dir/src/reactor_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/reactor_hw_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:[m[K In constructor ‘[01m[Kreactor_ns::ReactorHWInterface::ReactorHWInterface(ros::NodeHandle&, urdf::Model*)[m[K’:
+[01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:49:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<reactor_control::armCmd>(const char [17])[m[K’
+   49 |   cmd_pub=nh.advertise<reactor_control::armCmd>("/arbotixM/armCmd"[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool) [with M = reactor_control::armCmd_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/ros_control_boilerplate/include/ros_control_boilerplate/generic_hw_interface.h:44[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/include/reactor_control/reactor_hw_interface.h:43[m[K,
+                 from [01m[K/home/irobotics/ws_moveit/src/reactor_control/src/reactor_hw_interface.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool) [with M = reactor_control::armCmd_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; ros::SubscriberStatusCallback = boost::function<void(const ros::SingleSubscriberPublisher&)>; ros::VoidConstPtr = boost::shared_ptr<const void>][m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+make[2]: *** [CMakeFiles/reactor_hw_main.dir/build.make:76: CMakeFiles/reactor_hw_main.dir/src/reactor_hw_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1897: CMakeFiles/reactor_hw_main.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

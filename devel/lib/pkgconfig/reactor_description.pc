@@ -1,0 +1,8 @@
+prefix=/home/irobotics/ws_moveit/devel
+
+Name: reactor_description
+Description: Description of reactor_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
